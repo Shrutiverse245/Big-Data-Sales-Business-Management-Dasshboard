@@ -65,7 +65,7 @@ Charts
 - 🎯 Region Slicer
 
 📂 Project Structure
-IBM_Big_Data_Project
+```IBM_Big_Data_Project
 │
 ├── dataset
 │   ├── SuperStore_Sales_Dataset.csv
@@ -81,14 +81,12 @@ IBM_Big_Data_Project
 ├── screenshots
 │   └── dashboard.png
 │
-└── README.md
-
+└── README.mdd
+```
 
 
 🔄 Project Workflow
-
-
-SuperStore Sales Dataset
+```SuperStore Sales Dataset
           │
           ▼
 Data Cleaning (Python + Pandas)
@@ -101,7 +99,7 @@ Power BI Dashboard
           │
           ▼
 Business Insights & Decision Making
-
+```
 
 
 #📈 Business Insights
