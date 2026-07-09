@@ -9,7 +9,7 @@ The dashboard helps understand sales performance, customer trends, regional prof
 
 
 🚀 Features
-- 📈 Interactive Power BI Dashboard
+```- 📈 Interactive Power BI Dashboard
 - 🐍 Data Cleaning using Python (Pandas)
 - ☁️ Apache Hadoop (HDFS)
 - 📊 KPI Cards
@@ -20,19 +20,20 @@ The dashboard helps understand sales performance, customer trends, regional prof
 - 🚚 Orders by Ship Mode
 - 🌍 Profit by Region
 - 🔍 Region Filter
-
+```
 
 🛠️ Tech Stack
-- Python
+```- Python
 - Pandas
 - Apache Hadoop
 - Hadoop HDFS
 - Microsoft Power BI
 - Git
 - GitHub
+```
 
 📂 Dataset
-Dataset Used:
+```Dataset Used:
 SuperStore Sales Dataset
 Contains:
 - Order ID
@@ -47,9 +48,10 @@ Contains:
 - Quantity
 - Payment Mode
 - Ship Mode
+```
 
-# 📊 Dashboard Overview
-KPI Cards
+📊 Dashboard Overview
+```KPI Cards
 - 💰 Total Sales
 - 💵 Total Profit
 - 📦 Total Quantity
@@ -63,6 +65,7 @@ Charts
 - 🚚 Orders by Ship Mode
 - 🌍 Profit by Region
 - 🎯 Region Slicer
+```
 
 📂 Project Structure
 ```IBM_Big_Data_Project
@@ -102,29 +105,32 @@ Business Insights & Decision Making
 ```
 
 
-#📈 Business Insights
-✔️ Office Supplies generated the highest sales.
+📈 Business Insights
+```✔️ Office Supplies generated the highest sales.
 ✔️ COD is the most used payment mode.
 ✔️ West Region generated the highest profit.
 ✔️ Orders increased in 2020 compared to 2019.
 ✔️ Customer-wise sales help identify valuable customers.
 ✔️ Ship Mode analysis improves logistics planning.
+```
 
 ▶️ How to Run
-1. Download the dataset.
+```1. Download the dataset.
 2. Run
 bash
 python python_code/data_cleaning.py
 3. Import cleaned dataset into Power BI.
 4. Open Big_Data_Dashboard.pbix
 5. Explore interactive visuals.
+```
 
 🔮 Future Enhancements
-- Real-time Sales Dashboard
+```- Real-time Sales Dashboard
 - Machine Learning Sales Prediction
 - Cloud Deployment
 - Automated Report Generation
 - Customer Recommendation System
+```
 
 IBM SkillsBuild Internship
 
