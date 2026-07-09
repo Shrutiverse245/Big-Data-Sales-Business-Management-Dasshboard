@@ -1,138 +1,133 @@
-📊 Big Data Sales & Business Management Dashboard
-> Transforming Retail Sales Data into Business Insights using Python & Power BI
+ 📊 Big Data Sales & Business Management Dashboard
+IBM SkillsBuild Internship Project
 
-📖 Overview
-The *Big Data Sales & Business Management Dashboard* is an IBM SkillsBuild internship project that analyzes retail sales data using Python and Power BI. 
-The project helps businesses understand sales trends, customer behavior, regional performance, payment preferences, and profit analysis through interactive dashboards.
+A Business Intelligence Dashboard built to analyze retail sales data and generate meaningful business insights using Big Data technologies.
 
-✨ Features
+📖 Project Overview
+This project focuses on analyzing a SuperStore Sales Dataset using Python for data cleaning, Apache Hadoop for Big Data concepts, and Power BI for dashboard visualization.
+The dashboard helps understand sales performance, customer trends, regional profit, payment methods, and order statistics through interactive visualizations.
 
+
+🚀 Features
 - 📈 Interactive Power BI Dashboard
 - 🐍 Data Cleaning using Python (Pandas)
-- 📊 Sales, Profit & Quantity KPIs
-- 🛒 Sales Analysis by Category
-- 🌍 Regional Profit Analysis
+- ☁️ Apache Hadoop (HDFS)
+- 📊 KPI Cards
+- 📅 Yearly Sales Analysis
 - 💳 Payment Mode Analysis
-- 👥 Customer-wise Sales Analysis
-- 🚚 Ship Mode Analysis
-- 🎯 Business Decision Support
+- 📦 Sales by Category
+- 👤 Customer-wise Sales
+- 🚚 Orders by Ship Mode
+- 🌍 Profit by Region
+- 🔍 Region Filter
+
 
 🛠️ Tech Stack
-- Python 3
+- Python
 - Pandas
-- Power BI
+- Apache Hadoop
+- Hadoop HDFS
+- Microsoft Power BI
 - Git
 - GitHub
 
- 📂 Dataset
-Dataset: SuperStore Sales Dataset
-The dataset contains:
+📂 Dataset
+Dataset Used:
+SuperStore Sales Dataset
+Contains:
 - Order ID
 - Order Date
+- Ship Date
 - Customer Name
-- Segment
 - Region
 - Category
-- Sub-Category
+- Product Name
 - Sales
 - Profit
 - Quantity
 - Payment Mode
 - Ship Mode
 
-
-# 🚀 Project Workflow
-Dataset Collection
-        │
-        ▼
-Data Cleaning (Python)
-        │
-        ▼
-Data Analysis
-        │
-        ▼
-Power BI Dashboard
-        │
-        ▼
-Business Insights
-
-
-📊 Dashboard
-The dashboard includes:
+# 📊 Dashboard Overview
+KPI Cards
 - 💰 Total Sales
-- 📈 Total Profit
+- 💵 Total Profit
 - 📦 Total Quantity
+- 
+Charts
 - 📊 Sales by Category
-- 📅 Sales Trend
-- 🌎 Profit by Region
-- 💳 Sales by Payment Mode
-- 👤 Sales by Customer
-- 🚚 Ship Mode Analysis
+- 📈 Sales by Year and Quarter
+- 🍩 Sales by Payment Mode
+- 👤 Sales by Customer Name
+- 📉 Orders by Year
+- 🚚 Orders by Ship Mode
+- 🌍 Profit by Region
+- 🎯 Region Slicer
 
-📁 Project Structure
-Big-Data-Sales-Business-Management-Dashboard
+📂 Project Structure
+IBM_Big_Data_Project
 │
-├── dataset/
+├── dataset
 │   ├── SuperStore_Sales_Dataset.csv
 │   ├── cleaned_SuperStore_Sales_Dataset.csv
 │   └── final_Superstore_Sales.csv
 │
-├── python_code/
+├── python_code
 │   └── data_cleaning.py
 │
-├── dashboard/
+├── dashboard
 │   └── Big_Data_Dashboard.pbix
 │
-├── screenshots/
+├── screenshots
 │   └── dashboard.png
-│
-├── report/
-│
-├── presentation/
 │
 └── README.md
 
-💡 Business Insights
-- Office Supplies generated the highest sales.
-- West Region achieved the highest profit.
-- Online payment was the most preferred payment method.
-- Sales increased compared to the previous year.
-- The dashboard enables quick business decision-making.
-
-🎯 Future Scope
-- Machine Learning Sales Prediction
-- Real-Time Dashboard
-- Cloud Deployment
-- Customer Recommendation System
-- Automated Reporting
 
 
-# ▶️ How to Run
+🔄 Project Workflow
 
-### Clone Repository
 
-bash
-git clone https://github.com/YourUsername/Big-Data-Sales-Business-Management-Dashboard.git
-Install Python Packages
+SuperStore Sales Dataset
+          │
+          ▼
+Data Cleaning (Python + Pandas)
+          │
+          ▼
+Apache Hadoop (HDFS)
+          │
+          ▼
+Power BI Dashboard
+          │
+          ▼
+Business Insights & Decision Making
 
-bash
-pip install pandas
 
-Run
+
+#📈 Business Insights
+✔️ Office Supplies generated the highest sales.
+✔️ COD is the most used payment mode.
+✔️ West Region generated the highest profit.
+✔️ Orders increased in 2020 compared to 2019.
+✔️ Customer-wise sales help identify valuable customers.
+✔️ Ship Mode analysis improves logistics planning.
+
+▶️ How to Run
+1. Download the dataset.
+2. Run
 bash
 python python_code/data_cleaning.py
+3. Import cleaned dataset into Power BI.
+4. Open Big_Data_Dashboard.pbix
+5. Explore interactive visuals.
 
+🔮 Future Enhancements
+- Real-time Sales Dashboard
+- Machine Learning Sales Prediction
+- Cloud Deployment
+- Automated Report Generation
+- Customer Recommendation System
 
-Open
-Open the .pbix file using *Power BI Desktop*.
+IBM SkillsBuild Internship
 
-📚 References
-- IBM SkillsBuild
-- Microsoft Power BI
-- Pandas Documentation
-- GitHub
-- Kaggle
-
-IBM SkillsBuild Internship 2026
-
-⭐ If you like this project, don't forget to star the repository!
+⭐ If you found this project useful, don't forget to Star the Repository.
